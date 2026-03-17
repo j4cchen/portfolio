@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Email Developer Portfolio</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: #f5f5f5;
+      color: #333;
+    }
+
+    header {
+      background: #000;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+    }
+
+    .container {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 0 20px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 20px;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 8px;
+      overflow: hidden;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .card img {
+      width: 100%;
+      display: block;
+    }
+
+    .card-content {
+      padding: 15px;
+    }
+
+    .card-title {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .card a {
+      display: inline-block;
+      margin-top: 10px;
+      text-decoration: none;
+      background: #0371e3;
+      color: #fff;
+      padding: 10px 15px;
+      border-radius: 4px;
+      font-size: 14px;
+    }
+
+    .card a:hover {
+      background: #025bb5;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #777;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>⭐ Jeffrey Chen | Portfolio ⭐</h1>
+  <p>HTML Email Templates & Projects</p>
+</header>
+
+<div class="container">
+
+  <div class="grid">
+
+    <!-- Project 1 -->
+    <div class="card">
+      <img src="assets/email1.jpg" alt="Email Preview">
+      <div class="card-content">
+        <div class="card-title">Mortgage Campaign Email</div>
+        <p>Marketing email built for Blueshift.</p>
+        <a href="emails/email1.html" target="_blank">View Email</a>
+      </div>
+    </div>
+
+    <!-- Project 2 -->
+    <div class="card">
+      <img src="assets/email2.jpg" alt="Email Preview">
+      <div class="card-content">
+        <div class="card-title">Newsletter Template</div>
+        <p>Responsive newsletter design.</p>
+        <a href="emails/email2.html" target="_blank">View Email</a>
+      </div>
+    </div>
+
+    <!-- Project 3 -->
+    <div class="card">
+      <img src="assets/email3.jpg" alt="Email Preview">
+      <div class="card-content">
+        <div class="card-title">Promo Email</div>
+        <p>Sales-focused campaign email.</p>
+        <a href="emails/email3.html" target="_blank">View Email</a>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+<footer>
+  © 2026 Jeffrey Chen | Portfolio
+</footer>
+
+</body>
+</html>
